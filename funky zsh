@@ -1,0 +1,3 @@
+setopt PROMPT_SUBST
+NEWLINE=$'\n'
+PS1='%B%F{11}%b[%F{3}%*%B%F{11}]%b %F{11}%n%F{3} at %F{11}%m %F{3}in %F{11}%~${NEWLINE}%B%F{11}⇝  %b%f'
