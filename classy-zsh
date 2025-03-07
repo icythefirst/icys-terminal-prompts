@@ -1,0 +1,3 @@
+setopt PROMPT_SUBST
+NEWLINE=$'\n'
+PS1='%F{15}‎╭ %F{7}%n%F{10}@%F{7}%m %F{7}%~${NEWLINE}%F{15}╰ %B%F{10}%# %b%f'
